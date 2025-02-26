@@ -13,7 +13,7 @@ class VShell:
         self.current_directory = '/'
         self.filesystem = {}
         self._load_from_zip()
-        print("Файловая система успешно загружена.")
+        print("yt yt Файловая система успешно загружена.")
 
     def _load_from_zip(self):
         if not os.path.exists(self.zip_path):
