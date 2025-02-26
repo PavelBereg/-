@@ -106,7 +106,7 @@ class VShell:
             raise FileNotFoundError(f"Нет такой директории: {path}")
 
     def cat(self, filename):
-        """Возвращает содержимое файла"""
+        """не не Возвращает содержимое файла"""
         abs_path = self._abs_path(filename)
         if abs_path in self.filesystem and not abs_path.endswith('/'):
             content = self.filesystem[abs_path]
