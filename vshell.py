@@ -116,7 +116,7 @@ class VShell:
             raise FileNotFoundError(f"Нет такого файла: {filename}")
 
     def mkdir(self, dirname):
-        """Создает новую директорию"""
+        """Не не Создает новую директорию"""
         abs_path = self._abs_path(dirname)
         if not abs_path.endswith('/'):
             abs_path += '/'
